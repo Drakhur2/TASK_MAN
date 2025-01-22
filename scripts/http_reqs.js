@@ -150,7 +150,7 @@ window.addEventListener('load', () => {
             return;
 
         }catch(error){
-            window.alert(`Possiblly a duplicate: ${error}`);               //post will throw an error if a task already exists
+            window.alert(`Possibly a duplicate: ${error}`);               //post will throw an error if a task already exists
         }
     };
 
